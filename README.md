@@ -5,10 +5,10 @@ Este pequeno projeto faz parte da avalicao das disciplinas Disciplina: Qualidade
 O objetivo aqui é ilutsrar o conteúdo apresentado ao longo da disciplina.
 
 
-A idea é a criação de modelo de machine learning que possa ser utilizado por uma api para determinar se uma amostra de água é ou não potável.
+A idea deste prejeto foi a criação de modelo de machine learning que possa ser utilizado por uma api para determinar se uma amostra de água é ou não potável.
 
 O primeiro passo realizado foi a construção do modelo a partir do notebook no google colab.
-Após a analise e testes com algoritmos apresentados da disciplina um algoritmo foi escolhido para ser utilizadom como modelo.
+Após a analises e testes com algoritmos apresentados na disciplina, aquele que apresentou uma melhora acuraria foi escolhido para ser utilizado como modelo.
 
 
 ---
@@ -43,4 +43,4 @@ Abra o [http://localhost:5000/#/](http://localhost:5000/#/) no navegador para ve
 ## Como executar o front end
 
 A partir do diretorio "front" basta abrir o arquivo index.html no seu navegador.
-para que funcione corretamente é necessário que a API esta sendo executada.
+para que funcione corretamente é necessário que a API esteja sendo executada.
