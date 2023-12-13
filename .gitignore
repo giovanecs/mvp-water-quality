@@ -1,0 +1,6 @@
+api/database/
+.venv/
+api/log/
+api/__pycache__/
+api/model/__pycache__/
+api/schemas/__pycache__/

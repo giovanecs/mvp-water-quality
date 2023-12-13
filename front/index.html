@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+
+    <title>AI Water Potability System</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- Cabeçalho de informações do sistema -->
+        <header>
+            <div class="title">
+                <h2>Welcome to AI Water Potability System</h2>
+                <br>
+                <p>Este sistema foi desenvolvido para auxiliar na identificação da potabilidade da água.</p>
+            </div>
+        </header>
+
+        <section class="newItem">
+            <div class="row">
+                <div class="col-md-3">
+                    <input type="text" id="newPh" placeholder="Ph" class="form-control">
+                </div>
+                <div class="col-md-3">
+                    <input type="text" id="newHardness" placeholder="Hardness" class="form-control">
+                </div>
+                <div class="col-md-3">
+                    <input type="text" id="newSolids" placeholder="Solids" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <input type="text" id="newChloramines" placeholder="Chloramines" class="form-control">
+                </div>
+                <div class="col-md-3">
+                    <input type="text" id="newSulfate" placeholder="Sulfate" class="form-control">
+                </div>
+                <div class="col-md-3">
+                    <input type="text" id="newConductivity" placeholder="Conductivity" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <input type="text" id="newOrganicCarbon" placeholder="OrganicCarbon" class="form-control">
+                </div>
+                <div class="col-md-3">
+                    <input type="text" id="newTrihalomethanes" placeholder="Trihalomethanes" class="form-control">
+                </div>
+                <div class="col-md-3">
+                    <input type="text" id="newTurbidity" placeholder="Turbidity" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9">
+                    <button onclick="newItem()" class="btn btn-primary form-control">Adicionar</button>
+                </div>
+            </div>
+        </section>
+
+        <hr />
+        <!-- Tabela com items existentes -->
+        <table id="myTable" class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Ph</th>
+                    <th>Hardness</th>
+                    <th>Solids</th>
+                    <th>Chloramines</th>
+                    <th>Sulfate</th>
+                    <th>Conductivity</th>
+                    <th>Organic_carbon</th>
+                    <th>Trihalomethanes</th>
+                    <th>Turbidity</th>
+                    <th>Potability</th>
+                    <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15" height="15"></th>
+                    <!-- <th><img src="img/edit.png" width="15" height="15"></th> -->
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
